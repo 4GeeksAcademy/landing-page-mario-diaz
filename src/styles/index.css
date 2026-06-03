@@ -9,3 +9,12 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background-color: #020b14;
+    background-image: url("https://images.pexels.com/photos/1341279/pexels-photo-1341279.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
