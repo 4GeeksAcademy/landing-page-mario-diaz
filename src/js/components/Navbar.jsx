@@ -3,7 +3,7 @@ import React from "react"
 const Navbar = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-md navbar-dark bg-dark">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#"></a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +24,7 @@ const Navbar = () => {
                                 <ul className="dropdown-menu">
                                     <li><a className="dropdown-item" href="#">Action</a></li>
                                     <li><a className="dropdown-item" href="#">Another action</a></li>
-                                    <li><hr className="dropdown-divider"/></li>
+                                    <li><hr className="dropdown-divider" /></li>
                                     <li><a className="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </li>
